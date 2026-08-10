@@ -2,6 +2,7 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
+draft: true # Commented out: remove/set to false to re-enable this page
 
 design:
   spacing: '5rem'

@@ -2,6 +2,7 @@
 title: Courses
 summary: My courses
 type: landing
+draft: true # Commented out: remove/set to false to re-enable this section
 
 cascade:
   - target:

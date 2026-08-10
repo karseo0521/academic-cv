@@ -1,5 +1,6 @@
 ---
 title: "An example preprint / working paper"
+draft: true # Commented out: remove/set to false to re-enable this publication
 authors:
 - me
 date: "2019-04-07T00:00:00Z"

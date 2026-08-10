@@ -1,6 +1,7 @@
 ---
 title: scikit-learn
 date: 2023-10-26
+draft: true # Commented out along with the Projects section
 links:
   - type: site
     url: https://github.com/scikit-learn/scikit-learn

@@ -1,6 +1,7 @@
 ---
 title: Pandas
 date: 2023-10-26
+draft: true # Commented out along with the Projects section
 links:
   - type: site
     url: https://github.com/pandas-dev/pandas

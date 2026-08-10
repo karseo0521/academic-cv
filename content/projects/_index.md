@@ -2,6 +2,7 @@
 title: 'Projects'
 date: 2024-05-19
 type: landing
+draft: true # Commented out: remove/set to false to re-enable this section
 
 # Page sections
 sections:

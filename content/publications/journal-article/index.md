@@ -1,15 +1,15 @@
 ---
-title: "An example journal article"
+title: "MARS: Multi-Agent Rescheduling Framework with Large Language Models for Human-Centric Manufacturing"
 authors:
+- "Jimin Park"
 - me
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- "Zuhdi Faturrahman"
+- "Hyun-Jung Kim"
+# - Add co-authors here, e.g. "Robert Ford" (or their `content/authors/` folder name if they have a profile)
+date: "2026-10-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-08-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,63 +18,39 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Journal of Source Themes"
-  volume: 1
-  issue: 1
+  name: "Journal of Manufacturing Systems"
+  volume: 88
+  pages: "903-928"
 
 peer_reviewed: true
-open_access: true
-license: CC-BY-4.0
+# open_access: true # Uncomment and confirm once you know the access status
 
-# Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
-# Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
-awards:
-  - name: "Test of Time Award"
-    level: winner
-    date: "2025"
-    note: "Awarded for sustained impact 10 years after publication."
-  - name: "Editor's Choice"
-    level: featured
-
-funding:
-  - funder: "National Science Foundation"
-    grant: "NSF-1234567"
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+# abstract: "" # Add the paper's abstract here
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: ""
 
 tags:
-- Source Themes
-featured: false
+- Multi-Agent Systems
+- Large Language Models
+- Manufacturing
 
+featured: true
+
+# Standard identifiers for auto-linking (e.g. DOI, arXiv ID).
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    doi: "10.1016/j.jmsy.2026.07.015" # Add the DOI here, e.g. 10.1016/j.jmsy.2026.xxxxx
 
+# Custom links
 links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+  - type: site
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0278612526001998"
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -92,11 +68,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

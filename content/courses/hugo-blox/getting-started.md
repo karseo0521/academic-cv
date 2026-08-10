@@ -3,6 +3,7 @@ title: Getting Started
 date: 2024-02-17
 weight: 1
 type: docs
+draft: true # Commented out along with the Courses section
 ---
 
 ## Quick Start from Template
